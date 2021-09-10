@@ -4,9 +4,11 @@ const express = require("express");
 
 let server;
 const app = express();
-app.use(express.static(path.join(__dirname, "./../build")));
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../client/build")));
+}
 
 server = new http.createServer(app);
 
-server.on("error", (err) => console.log("Server error:", err));
 server.listen(process.env.PORT);
