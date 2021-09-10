@@ -1,0 +1,11 @@
+.resume-wrapper{
+    background-color: #f4f4f4;
+}
+.resume-container .box{
+    background-color: #fff;
+}
+.download-resume{
+    width: 40%;
+    background-color:  rgb(230 218 206);
+    border-radius: 5px;
+}

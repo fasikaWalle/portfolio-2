@@ -1,0 +1,25 @@
+
+.footer{
+position: fixed;
+width:100%;
+bottom: 0;
+display:flex;
+justify-content: end;
+background-color: rgb(230 218 206);
+}
+.icons{
+font-size: 2rem;
+
+margin-right:3rem;
+background-color: none;
+}
+ .git:hover{
+   color:#555; 
+}
+ .mail:hover{
+   color:#ea4335; 
+}
+ .linkdin:hover{
+   color:#0a66c2; 
+}
+

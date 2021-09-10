@@ -1,0 +1,28 @@
+.profile-section{
+    margin-top:10% 
+}
+.profile-picture{
+    height:15rem;
+    width:auto;
+    margin:-50px 0 0 120px;
+  
+}
+.square{
+    height:17rem;
+    width:17rem;
+    margin:-10rem 0 0 0;
+    border:10px solid rgb(230 218 206);
+}
+.header-text{
+    font-weight: lighter;
+    font-size:3rem;
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 10px;
+    margin-bottom: 10%;
+   
+}
+.header-text span{
+    color: rgb(188 175 162)
+}
+

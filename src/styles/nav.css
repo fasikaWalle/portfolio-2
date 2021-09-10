@@ -1,0 +1,17 @@
+
+.nav-bar{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    font-family: 'lato';
+    font-weight: thin;
+    
+} 
+.back-arrow{
+  color:#fff;  
+}
+.back-arrow:hover{
+  color:antiquewhite;
+}
+.visibility{
+  display:none;
+}

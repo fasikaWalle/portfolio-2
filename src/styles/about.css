@@ -1,0 +1,13 @@
+.about-section{
+    height:60vh;
+    width:45%;
+    margin:8%  auto  0 auto;
+    text-align: center;
+}
+
+.about-section p{
+ font-size: 1.25rem;
+ text-align: justify;
+ font-family: 'lato';
+ color:rgb(0, 0, 0);
+}
