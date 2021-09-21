@@ -20,6 +20,10 @@ function About() {
           Agile/SCRUM and Prototype. Detail oriented,with high ability to learn
           new technologies in a short time
         </p>
+        <p className="proverb">
+          <span> African Proverb:</span> Life is like a mirror if you fawn it,
+          it fawns back and if you smile, it smiles.
+        </p>
       </div>
       <Footer />
     </>

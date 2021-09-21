@@ -3,8 +3,9 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/resume.css";
-import resume from "../assets/images/FasikaWallenewResume.docx";
+import resume from "../assets/FasikaWallenewResume.docx";
 
+import { BsCheck } from "react-icons/bs";
 function Resume() {
   return (
     <div className="resume-wrapper">
@@ -43,25 +44,84 @@ function Resume() {
               </p>
             </div>
           </Col>
-          <Col className=" col-sm-12 col-md-6 col-lg-5">
+          <Col className=" col-sm-12 col-md-6 col-lg-5 list-unstyled">
             <p>
-              <h3>Crime Record and Investigation Management System</h3>-
-              Translated design team's UX design's and mock ups into responsive,
-              interactive features using reusable components,Advises on
-              front,end web application architecture solutions that are reusable
-              and user,oriented,Gathered data from API/web services via
-              AJAX,JSON calls and updating the DOM within the result sets.
-              ,creating cross,browser compatible and standards,compliant CSS
-              based page layouts. ,Using Bootstrap for Responsive Web Design
-              (RWD) and CSS media Queries ,used React.js library functions for
-              the logical implementation part on the client side for all the
-              applications.
+              <h3>Crime Record and Investigation Management System</h3>
+              <h4>Job description</h4>
+              <li>
+                <BsCheck className="check-mark" />
+                Build reusable code and libraries for future use Ensure the
+                technical feasibility of UI/UX designs
+              </li>
+              <li>
+                <BsCheck className="check-mark" />
+                Optimize application for maximum speed and scalability
+              </li>
+              <li>
+                Performed unit testing and documentation of UI and services.
+                <li>
+                  {" "}
+                  <BsCheck className="check-mark" />
+                  identifying critical bugs.
+                </li>
+              </li>
               <h4>Technologies Used:</h4>
-              ES6, React/React Hook,Redux,Bootstrap, Rest API, Axios, node js,
-              HTML 5, and CSS3.
+              ES6, React js, Redux,Bootstrap, Rest API, Axios, node js, HTML 5,
+              and CSS3.
               <h4>Tools Used:</h4>
-              Visual studio, React Devtools,graphql,MongoDb Compass(For Mongodb)
-              Redux Devtools,Github.
+              -Visual,studio,graphql,Github,Sonar(codequality
+              analysis),webpack,postman,drawio( for
+              documentation),Swagger,Jira,Selenium.
+            </p>
+
+            <p>
+              <h3>Prisoners record management system </h3>
+              <h4>Job description</h4>
+              <ul className="list-unstyled">
+                <li>
+                  <BsCheck className="check-mark" />
+                  Translated design team's UX design's and mock-ups into
+                  responsive, interactive features using reusable components.
+                </li>
+                <li>
+                  <BsCheck className="check-mark" />
+                  Advises on front-end web application architecture solutions
+                  that are reusable and user-oriented.
+                </li>
+                <li>
+                  <BsCheck className="check-mark" />
+                  Gathered data from API/web services via AJAX-JSON calls and
+                  updating the DOM within the result sets.
+                </li>
+                <li>
+                  <BsCheck className="check-mark" />
+                  Creating cross-browser compatible and standards-compliant CSS
+                  based page layouts.{" "}
+                </li>
+                <li>
+                  Responsive Web Design (RWD) and CSS media Queries and
+                  Bootstrap.
+                </li>
+                <li>
+                  <BsCheck className="check-mark" />
+                  Used React.js library functions for the logical implementation
+                  part on the client-side for all the applications.
+                </li>
+                <li>
+                  <BsCheck className="check-mark" />
+                  Performed unit testing and documentation of UI and services.
+                  identifying critical bugs.
+                </li>
+              </ul>
+              <h4>Technologies Used:</h4>
+              <div>
+                ES6, React/React Hook, Redux,Bootstrap, graphql, node js, HTML
+                5, and CSS3.
+              </div>
+              <h4>Tools Used:</h4>
+              Visual studio, graphql,Redux Devtools, Github,webpack,drawio(for
+              documentation),postman , Sonar(code quality
+              analysis),Swagger,Jira,Selenium.
             </p>
           </Col>
         </Row>

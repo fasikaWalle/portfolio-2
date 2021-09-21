@@ -11,3 +11,11 @@
  font-family: 'lato';
  color:rgb(0, 0, 0);
 }
+.proverb{
+    border:1px solid rgb(230 218 206);
+    padding:10px;
+}
+.proverb span {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
